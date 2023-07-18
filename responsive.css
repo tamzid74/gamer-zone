@@ -1,0 +1,23 @@
+/* mobile device responsive */
+@media screen and (max-width: 425px) {
+    nav,
+    .nav-item-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        gap: 24px;
+    }
+    
+}
+
+/* tablet device responsive */
+@media screen and (max-width: 768px) {
+    
+    nav
+    {
+        flex-direction: column;
+    }
+    
+    
+}
+    
