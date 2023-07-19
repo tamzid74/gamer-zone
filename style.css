@@ -312,6 +312,10 @@ nav {
     flex-wrap: wrap;
     row-gap: 20px;
 }
+.icon>img{
+    width: 54px;
+    height: 68px;
+}
 
 .icons-container>.icon {
     display: flex;
