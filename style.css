@@ -151,6 +151,9 @@ nav {
 
 /* banner style ends */
 
+/* gamer style starts */
+
+
 /* online game style starts */
 .online-game-content {
     text-align: center;
@@ -225,5 +228,40 @@ nav {
     bottom: -10%;
 }
 
-
 /* play-instant style ends */
+/* icons style starts */
+.icons-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.icons-container>.icon {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 260px;
+}
+
+.icons-container>.icon>p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icons-container>.icon:hover {
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+}
+
+
+
+/* icons style ends */
