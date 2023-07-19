@@ -88,6 +88,9 @@
      .gamer-content>.our-purpose>.unleash{
         font-size: 22px;
      }
+     .overlay{
+        width: 90%;
+     }
 }
 /* tablet device responsive */
 @media screen and (max-width: 768px) {

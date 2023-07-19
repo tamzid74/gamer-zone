@@ -170,6 +170,7 @@ nav {
     text-align: right;
 
 }
+
 .gamer-content>.gamer-title {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
@@ -187,9 +188,7 @@ nav {
 .gamer-content>.our-purpose>.unleash {
     font-size: 32px;
     font-weight: 700;
-
 }
-
 
 /* gamer style ends */
 
@@ -215,13 +214,50 @@ nav {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.card {
+    position: relative;
 
 }
 
+.card img {}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 81%;
+    border-radius: 16px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #000000a8;
+}
+
+.play-now {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
 .online-cards>.card>p {
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+}
+
+.online-container .card:hover .overlay{
+    opacity: 1;
 }
 
 /* online style ends */
@@ -302,4 +338,3 @@ nav {
 }
 
 /* icons style ends */
-
