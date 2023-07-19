@@ -20,6 +20,12 @@ body {
     margin-top: 32px;
 }
 
+.description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
 
 /* header style section */
@@ -161,17 +167,13 @@ nav {
     -webkit-background-clip: text;
     color: transparent;
 }
-.description {
-    color: #534C64;
-    font-size: 18px;
-    font-weight: 400;
-}
+
 .online-game-cards {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
-   
+
 }
 
 .online-game-cards>.card>p {
@@ -180,7 +182,48 @@ nav {
     font-weight: 500;
 }
 
-
-
-
 /* online game style ends */
+/* play-instant style starts */
+.play-instant-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.play-instant-content {
+    text-align: right
+}
+
+.play-instant-content>h1 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.play-instant-content>h1>.play {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.play-instant-photos img {
+    width: 100%;
+}
+
+.play-instant-photos {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+
+.extra-add-photo {
+    width: 50%;
+    position: absolute;
+    left: -23%;
+    bottom: -10%;
+}
+
+
+/* play-instant style ends */

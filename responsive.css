@@ -3,7 +3,9 @@
     nav,
     .nav-item-container,
     .banner-container,
-    .online-game-cards {
+    .online-game-cards,
+    .play-instant-container
+    {
         flex-direction: column;
         
     }
@@ -20,6 +22,9 @@
         width: 100%;
         padding: 0px;
         margin-top: 10px;   
+    }
+    .description{
+        font-size: 14px;
     }
     .banner-content>h2{  
         padding: 5px 0 0 25px;
@@ -38,14 +43,33 @@
         width: 100%;
         padding-left: 30px;
     }
+    .play-instant-container{
+        margin-top: 40px;
+        padding: 30px;
+    }
+    .play-instant-content{
+        text-align: center;
+    }
+    .play-instant-content>h1{
+        font-size: 30px;    
+    } 
+    .play-instant-photos{
+        margin-top: 70px;
+    }
+    .play-instant-photos img {
+        width: 70%;
+    }
+    .extra-add-photo {
+        left: -1% ;
+    }
    
 }
 /* tablet device responsive */
 @media screen and (max-width: 768px) {
     
     nav,
-    .banner-container
-     
+    .banner-container,
+    .play-instant-container
     {
         flex-direction: column;
     }
@@ -79,8 +103,23 @@
         margin-left: 60px;
     }
     .online-game-cards {
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;  
+    }
+    .play-instant-container{
+        margin-top: 40px;
+        padding: 30px;
+    }
+    .play-instant-content{
+        text-align: center;
+    }
+    .play-instant-photos{
+        margin-top: 70px;
+    }
+    .play-instant-photos img {
+        width: 70%;
+    }
+    .extra-add-photo {
+        left: -1% ;
     }
       
 }
