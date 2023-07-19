@@ -119,6 +119,20 @@
      .copyright{
         font-size: 10px;
      }
+     .icons-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+     }
+     .icon{
+        width: 100%;
+     }
+
+     .icon img{
+        width: 30%;
+     }
+     .icons-container>.icon>p{
+        font-size: 7px;
+     }
 }
 
 /* tablet device responsive */
@@ -126,7 +140,8 @@
     
     nav,
     .banner-container,
-    .play-instant-container
+    .play-instant-container,
+    .online-cards
     {
         flex-direction: column;
     }
@@ -178,5 +193,48 @@
     .extra-add-photo {
         left: -1% ;
     }
+    .gamer-banner{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .gamer-photo{
+        width: 80%;
+    }
+    .gamer-photo img{
+        width: 100%;
+    }
+    .gamer-title{
+        font-size:30px ;
+    }
+    /* .overlay{
+        width: 46%;
+     } */
       
+     .icon>.rectangle{
+        width: 60px;
+        height:64px ;
+     }
+     .list-item{
+        margin-top: 5px;
+        font-size: 18px;
+        display: grid;
+        row-gap: 15px;
+        grid-template-columns: repeat(3,1fr);
+     }
+     .social-item{
+        margin-top: 20px;
+        display: grid;
+        column-gap:10px ;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10px;
+     }
+     .policy-item{
+        margin-top: 5px;
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10px;
+     }
 }

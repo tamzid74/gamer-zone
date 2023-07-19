@@ -88,12 +88,12 @@ nav {
     font-weight: 500;
 }
 
-.button-container>.fa-youtube {
+.button-container>a>.fa-youtube {
     color: red;
     margin-left: 15px;
 }
 
-.button-container>.fa-tiktok {
+.button-container>a>.fa-tiktok {
     background: linear-gradient(#08FFF9 10%, #000000 20%);
     color: transparent;
     -webkit-background-clip: text;
@@ -220,9 +220,6 @@ nav {
     position: relative;
 
 }
-
-.card img {}
-
 .overlay {
     position: absolute;
     top: 0;
@@ -305,8 +302,8 @@ nav {
 }
 
 /* play-instant style ends */
-/* button style starts */
-.icon-button-container {
+/* icon style starts */
+.icons-container {
     width: 80%;
     margin: 0 auto;
     margin-top: 130px;
@@ -316,19 +313,19 @@ nav {
     row-gap: 20px;
 }
 
-.icon-button-container>.icon-button {
+.icons-container>.icon {
     display: flex;
     justify-content: space-evenly;
-    /* flex-basis: 260px; */
+    flex-basis: 260px;
 }
 
-.icon-button-container>.icon-button>p {
+.icons-container>.icon>p {
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
 }
 
-.icon-button-container>.icon:hover {
+.icons-container>.icon:hover {
     cursor: pointer;
     border: 1px solid #FF42A5;
     border-radius: 50px;
@@ -338,7 +335,8 @@ nav {
     padding: 10px;
 }
 
-/* button style ends */
+/* icon style ends */
+/* footer section start */
 
 footer {
     background: #0B0223;
@@ -410,3 +408,4 @@ footer {
     font-size: 16px;
     font-weight: 500;
 }
+/* footer section ends */
