@@ -3,7 +3,8 @@
     nav,
     .nav-item-container,
     .banner-container,
-    .online-game-cards,
+    .gamer-banner,
+    .online-cards,
     .play-instant-container
     {
         flex-direction: column;
@@ -20,26 +21,27 @@
     }
     .banner-content{
         width: 100%;
-        padding: 0px;
-        margin-top: 10px;   
+        padding: 0;
+        margin-top: 10px;  
+        text-align: center;
     }
     .description{
         font-size: 14px;
+        text-align: center;
     }
     .banner-content>h2{  
-        padding: 5px 0 0 25px;
+        font-size: 30px;
     }
     .banner-content>.goat{
-        padding-left: 6px;
+        font-size: 70px;  
     }
     .banner-content>p{
-        font-size: 16px;
-        padding-left: 15px;
+        font-size: 14px;
     }
     .banner-content>button{
-        margin: 0 0 10px 15px; 
+        margin-bottom: 10px;
     }
-    .online-game-cards {
+    .online-cards {
         width: 100%;
         padding-left: 30px;
     }
@@ -62,8 +64,30 @@
     .extra-add-photo {
         left: -1% ;
     }
-    
-    
+    .gamer-banner{
+        padding: 0;
+        width: 100%;
+    }
+    .gamer-photo img{
+        width: 100%;
+    }
+    .gamer-content{
+        width: 100%;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .gamer-content>.gamer-title{
+        font-size: 30px;
+    }
+    .gamer-content>.our-purpose{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+     .gamer-content>.our-purpose>.unleash{
+        font-size: 22px;
+     }
 }
 /* tablet device responsive */
 @media screen and (max-width: 768px) {
