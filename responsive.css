@@ -2,7 +2,8 @@
 @media screen and (max-width: 425px) {
     nav,
     .nav-item-container,
-    .banner-container{
+    .banner-container,
+    .online-game-cards {
         flex-direction: column;
         
     }
@@ -33,15 +34,18 @@
     .banner-content>button{
         margin: 0 0 10px 15px; 
     }
-
-
+    .online-game-cards {
+        width: 100%;
+        padding-left: 30px;
+    }
+   
 }
-
 /* tablet device responsive */
 @media screen and (max-width: 768px) {
     
     nav,
     .banner-container
+     
     {
         flex-direction: column;
     }
@@ -70,7 +74,13 @@
     .banner-content>button{
         margin: 0 0 10px 15px; 
     }
-
-    
+    .banner-photo img {
+        width: 80%;
+        margin-left: 60px;
+    }
+    .online-game-cards {
+        flex-wrap: wrap;
+        
+    }
+      
 }
-    
